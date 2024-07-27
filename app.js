@@ -7,7 +7,7 @@ const PASSWORD = 'beengineer'
 
 app.use(basicAuth(USERNAME, PASSWORD))
 
-app.use(express.static('public'))
+app.use(express.static('content'))
 
 const port = process.env.PORT || 3000
 app.listen(port, () => {
