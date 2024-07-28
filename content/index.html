@@ -1,123 +1,30 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="bg">
-        <img src="images/handball_bg.jpg">
-    </section>
-    
     <header>
-        <i class="fa-regular fa-futbol"></i>
-        <nav>
-            <a href="#charm">魅力</a>
-            <a href="#rule">ルール</a>
-            <a href="#position">ポジション</a>
-        </nav>
+        <h1>株式会社VOISING 所属タレント紹介</h1>
     </header>
-
-    <section id="firstview">
-        <h1>ハンドボール</h1>
-        <img src="images/handball_5.jpg">
-    </section>
-
-    <section id="charm">
-        <h2>魅力</h2>
-        <div class="charm__content">
-            <h3>迫力</h3>
-            <p>攻撃側は、ゴールから6mより近づくことはできません。ただし、ジャンプしているとそれより中に入ることもできます。なので、よりゴールに近づくため、あるいは守備の上からシュートを打つためにジャンプしながらシュートを打つことがほとんどです。このジャンプシュートの迫力こそハンドボールの醍醐味のひとつです。</p>
-            <img src="images/handball_4.jpg">
-            <p>また、ハンドボールは他のスポーツと比べて総合的な身体能力を求められるスポーツだと言われます。そのため、試合を見るとプロの身体能力の高さを間近で感じられます。さらにスポーツの特性上、身体をぶつけることが多いスポーツで会場で試合を見るとより迫力を感じられます。</p>
-            <img src="images/handball_2.jpg">
-        </div>
-        <div class="charm__content">
-            <h3>緊張感</h3>
-            <p>前半と後半合わせて60分という試合時間の中で、両チーム合計で得点が40〜80点入るスポーツです。攻守の入れ替わりが目まぐるしく、試合中目が離せません。試合中常に緊張感を感じながら楽しむことができます。</p>
-            <img src="images/handball_8.jpg">
-        </div>
-    </section>
-
-    <section id="rule">
-        <h2>ルール</h2>
-        <div class="rule__wrapper">
-            <div class="rule__card">
-                <img src="images/handball_court.png">
-                <h3>コートの大きさ</h3>
-                <p>20m×40mで、バスケットボールのコートの大きさに近いです。また、ゴールの前には6mラインという半円のような線が引かれており、ゴールキーパー以外はこれよりゴールに近づくことはできません。</p>
-            </div>
-
-            <div class="rule__card">
-                <img src="images/handball_7.jpg">
-                <h3>時間</h3>
-                <p>試合時間は30分を前半後半実施し、合計60分です。点数はおおよそ20点～40点くらい入るスポーツで、試合中目まぐるしく攻守が変わるので目が離せません。</p>
-            </div>
-
-            <div class="rule__card">
-                <img src="images/handball_6.jpg">
-                <h3>選手</h3>
-                <p>試合中の選手交代の回数に制限はありません。選手は最大16名まで登録することができるので、選手を流動的に変えながら常にスピード感のある試合が展開されます。</p>
-            </div>
-
-            <div class="rule__card">
-                <img src="images/handball_9.jpg">
-                <h3>ボールの扱い</h3>
-                <p>男子は3号球、女子は2号球でバレーボールより一回り小さく、ギリギリ片手で掴めるかどうかくらいの大きさです。基本的に手で扱い、ドリブルなどのルールはバスケットボールに近いです。</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="position">
-        <h2>ポジション</h2>
-        <div class="position__intro">
-            <div class="position__wrapper swiper-wrapper">
-                <div class="position__item swiper-slide">
-                    <img src="images/position_long_center.png">
-                    <div class="position__item__textblock">
-                        <h3>センター、ロング</h3>
-                        <p>攻撃を主導する。この3人でボールを回しながら守備の穴を見つけてそこから攻撃していく。フェイントで相手を交わす他、ジャンプ力を活かして相手の守備の上からシュートを打ったり、空いているポスト・サイドを見つけてパスを送るなど、攻撃をリードする。</p>
-                    </div>
-                </div>
-                <div class="position__item swiper-slide">
-                    <img src="images/position_side.png">
-                    <div class="position__item__textblock">
-                        <h3>サイド</h3>
-                        <p>敵のサイド深くに潜り込み、攻撃の幅を広げる。純粋にそのポジションから攻撃することもあれば、ロングと入れ替わって敵を翻弄したり、逆サイドから攻撃が展開されている時間には中央まで移動してポストが2人いる状態を作ったりする。</p>
-                    </div>
-                </div>
-                <div class="position__item swiper-slide">
-                    <img src="images/position_post.png">
-                    <div class="position__item__textblock">
-                        <h3>ポスト</h3>
-                        <p>敵の守備の中に潜り込んで攻撃参加する。身体で相手を止めることで味方の攻撃をやりやすいように道を開けたり、敵の背後で動くことでパスを受けシュートを打つ。</p>
-                    </div>
-                </div>
-                <div class="position__item swiper-slide">
-                    <img src="images/position_keeper.png">
-                    <div class="position__item__textblock">
-                        <h3>キーパー</h3>
-                        <p>ゴール前で敵のシュートをとめる。シュートを打つ場所とゴールとの距離が近いので、かなりの反射神経が求められる。コートがそれほど大きくないので、攻撃参加をすることもある。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </section>
-
-    <footer></footer>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="main.js"></script>
+    <div>
+        <h2>いれいす</h2>
+        <img src="images/image1.jpeg">
+        <h4>いれいすは2020年10月9日に結成されネット上で活躍している6人組歌い手グループ。
+            歌い手史上最速となる結成3年目での武道館ワンマンライブを達成し、
+            現在は結成6年目での東京ドームライブを目標にしている。
+        </h4>
+        <h2>メンバー紹介</h2>
+        <h3>りうら</h3>
+        <h4>いれいすのDiceNo.1。赤色担当でいれいすの最年少。
+            主に歌やオリジナル曲を作っている。
+        </h4>
+        <a href="https://www.youtube.com/channel/UCBuLdF0tQn5oZjpvYWSQkaA">youtubeチャンネル</a>
+        <a href="https://x.com/_Liura_of">Twitter(メインアカウント)</a>
+        <a href="https://x.com/liura_wolf">Twitter(サブアカウント)</a>
+    </div>
 </body>
 </html>
