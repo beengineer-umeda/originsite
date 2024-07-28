@@ -1,123 +1,90 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://use.fontawesome.com/releases/v6.5.2/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section id="bg">
-        <img src="images/handball_bg.jpg">
-    </section>
-    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>9000s</title>
+        <link rel = "stylesheet" href="styles.css">
+        <style>
+            .container {
+                width: 300px; /* 画像の幅に合わせて調整 */
+                height: 200px; /* 画像の高さに合わせて調整 */
+                background-image: url('path/to/your/image.jpg');
+                background-size: cover;
+                position: relative;
+                color: white;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+    <h1 id ="top">Hankyu 9000 Series</h1>
+    <img src="https://www.hankyu.co.jp/railfan/maroon/img/maroon_9000_mv.png">
+    <div class="container">
+        
+            <img src="https://www.hankyu.co.jp/railfan/maroon/img/maroon_9000_mv.png">
+            <h2 class="test">テスト</h2>
+            <p>ここにテキストを入れます。</p>
+        
+    </div>
+        <a href="https://www.hankyu.co.jp/railfan/maroon/9000.html">阪急電鉄公式サイトから</a>
     <header>
-        <i class="fa-regular fa-futbol"></i>
         <nav>
-            <a href="#charm">魅力</a>
-            <a href="#rule">ルール</a>
-            <a href="#position">ポジション</a>
+            <a href="#top">トップに戻る</a>
+            <a href="#infor">基本情報</a>
+            <a href="#unnyoutoday">運用表</a>
+            <a href="#sirixyoukann">資料館</a>
         </nav>
     </header>
+    <h2 id="infor">基本情報</h2>
+    <p class="inforp">9000,9002,9004,9006,9008は西宮北口車庫(神戸線):情報<a href="https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%AE%AE%E8%BB%8A%E5%BA%AB">Wikipedia</a>,<a href="https://www.youtube.com/@dw9149">ライブカメラ</a></p>
+    <p class="inforp">9001,9003,9005,9007,9009,9010は平井車庫(宝塚線):情報<a href="https://ja.wikipedia.org/wiki/%E5%B9%B3%E4%BA%95%E8%BB%8A%E5%BA%AB">Wikipedia</a></p>
 
-    <section id="firstview">
-        <h1>ハンドボール</h1>
-        <img src="images/handball_5.jpg">
-    </section>
+    <h2 id="unnyoutoday">運用表</h2>
+    <p>運用表の詳細は<a href="https://www.elesite-next.com/#/unyou_table">えれサイト4</a>をご参照下さい</p>
+    <table border="1">
+        <tr>
+            <th>名前</th>
+            <td>今日</td>
+            <td>明日</td>
+            <td>明後日</td>
+        </tr>
+        <tr>
+            <th>9000</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>9002</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>9004</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>9006</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>9008</th>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2 id="sirixyoukann">資料館</h2>
 
-    <section id="charm">
-        <h2>魅力</h2>
-        <div class="charm__content">
-            <h3>迫力</h3>
-            <p>攻撃側は、ゴールから6mより近づくことはできません。ただし、ジャンプしているとそれより中に入ることもできます。なので、よりゴールに近づくため、あるいは守備の上からシュートを打つためにジャンプしながらシュートを打つことがほとんどです。このジャンプシュートの迫力こそハンドボールの醍醐味のひとつです。</p>
-            <img src="images/handball_4.jpg">
-            <p>また、ハンドボールは他のスポーツと比べて総合的な身体能力を求められるスポーツだと言われます。そのため、試合を見るとプロの身体能力の高さを間近で感じられます。さらにスポーツの特性上、身体をぶつけることが多いスポーツで会場で試合を見るとより迫力を感じられます。</p>
-            <img src="images/handball_2.jpg">
-        </div>
-        <div class="charm__content">
-            <h3>緊張感</h3>
-            <p>前半と後半合わせて60分という試合時間の中で、両チーム合計で得点が40〜80点入るスポーツです。攻守の入れ替わりが目まぐるしく、試合中目が離せません。試合中常に緊張感を感じながら楽しむことができます。</p>
-            <img src="images/handball_8.jpg">
-        </div>
-    </section>
-
-    <section id="rule">
-        <h2>ルール</h2>
-        <div class="rule__wrapper">
-            <div class="rule__card">
-                <img src="images/handball_court.png">
-                <h3>コートの大きさ</h3>
-                <p>20m×40mで、バスケットボールのコートの大きさに近いです。また、ゴールの前には6mラインという半円のような線が引かれており、ゴールキーパー以外はこれよりゴールに近づくことはできません。</p>
-            </div>
-
-            <div class="rule__card">
-                <img src="images/handball_7.jpg">
-                <h3>時間</h3>
-                <p>試合時間は30分を前半後半実施し、合計60分です。点数はおおよそ20点～40点くらい入るスポーツで、試合中目まぐるしく攻守が変わるので目が離せません。</p>
-            </div>
-
-            <div class="rule__card">
-                <img src="images/handball_6.jpg">
-                <h3>選手</h3>
-                <p>試合中の選手交代の回数に制限はありません。選手は最大16名まで登録することができるので、選手を流動的に変えながら常にスピード感のある試合が展開されます。</p>
-            </div>
-
-            <div class="rule__card">
-                <img src="images/handball_9.jpg">
-                <h3>ボールの扱い</h3>
-                <p>男子は3号球、女子は2号球でバレーボールより一回り小さく、ギリギリ片手で掴めるかどうかくらいの大きさです。基本的に手で扱い、ドリブルなどのルールはバスケットボールに近いです。</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="position">
-        <h2>ポジション</h2>
-        <div class="position__intro">
-            <div class="position__wrapper swiper-wrapper">
-                <div class="position__item swiper-slide">
-                    <img src="images/position_long_center.png">
-                    <div class="position__item__textblock">
-                        <h3>センター、ロング</h3>
-                        <p>攻撃を主導する。この3人でボールを回しながら守備の穴を見つけてそこから攻撃していく。フェイントで相手を交わす他、ジャンプ力を活かして相手の守備の上からシュートを打ったり、空いているポスト・サイドを見つけてパスを送るなど、攻撃をリードする。</p>
-                    </div>
-                </div>
-                <div class="position__item swiper-slide">
-                    <img src="images/position_side.png">
-                    <div class="position__item__textblock">
-                        <h3>サイド</h3>
-                        <p>敵のサイド深くに潜り込み、攻撃の幅を広げる。純粋にそのポジションから攻撃することもあれば、ロングと入れ替わって敵を翻弄したり、逆サイドから攻撃が展開されている時間には中央まで移動してポストが2人いる状態を作ったりする。</p>
-                    </div>
-                </div>
-                <div class="position__item swiper-slide">
-                    <img src="images/position_post.png">
-                    <div class="position__item__textblock">
-                        <h3>ポスト</h3>
-                        <p>敵の守備の中に潜り込んで攻撃参加する。身体で相手を止めることで味方の攻撃をやりやすいように道を開けたり、敵の背後で動くことでパスを受けシュートを打つ。</p>
-                    </div>
-                </div>
-                <div class="position__item swiper-slide">
-                    <img src="images/position_keeper.png">
-                    <div class="position__item__textblock">
-                        <h3>キーパー</h3>
-                        <p>ゴール前で敵のシュートをとめる。シュートを打つ場所とゴールとの距離が近いので、かなりの反射神経が求められる。コートがそれほど大きくないので、攻撃参加をすることもある。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </section>
-
-    <footer></footer>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-    <script src="main.js"></script>
-</body>
+    </body>
 </html>
